@@ -11,6 +11,29 @@ public class Main {
         System.out.println(calculoQuadrado * pi + "cm");
 
 
+        System.out.println("----------------------------------------------------------------------------------");
+
+        System.out.println("Calcular dobro, triplo e raiz quadrada");
+
+        Scanner number = new Scanner(System.in);
+        System.out.print("Digite um numero: ");
+
+        double numberUser = number.nextDouble();
+        System.out.println("dobro: " + numberUser*2);
+        System.out.println("triplo: " + numberUser*3);
+        System.out.println("Raiz: " + Math.sqrt(numberUser));
+
+        System.out.println("----------------------------------------------------------------------------------");
+
+        System.out.println("Sua idade em dias!!");
+
+        Scanner idadeScanner = new Scanner(System.in);
+        System.out.print("Digite sua idade: ");
+        int idadeUser = idadeScanner.nextInt();
+
+        System.out.println(idadeUser * 365);
+
+
 
     }
 }
