@@ -6,7 +6,5 @@ public class mediaTres {
         Scanner n1 = new Scanner(System.in);
         Scanner n2 = new Scanner(System.in);
         Scanner n3 = new Scanner(System.in);
-
-        int 
     }
 }
